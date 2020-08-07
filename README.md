@@ -13,7 +13,7 @@ This example leverages an App Registration that has been configured to use a cer
 
 Key Vault certificates can be imported directly into the app service for your Azure Function:
 
-[ImportCertificate.png](Documentation/ImportCertificate.png)
+![ImportCertificate.png](Documentation/ImportCertificate.png)
 
 # Azure Function App Configuration
 
