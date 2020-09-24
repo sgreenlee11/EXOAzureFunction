@@ -33,8 +33,8 @@ Dependancy Management can be used to ensure the Exchange Online Management modul
 Here is an example requirements.psd1 file:
 
 
-@{
-    'Az' = '4.*';
-    'ExchangeOnlineManagement' = '2.0.4-Preview2'
-}
+    @{
+        'Az' = '4.*';
+        'ExchangeOnlineManagement' = '2.0.4-Preview2'
+    }
 
