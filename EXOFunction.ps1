@@ -21,7 +21,7 @@ Connect-ExchangeOnline -CertificateThumbprint $certhumbprint -AppId $clientid -O
 
 #Loop through each mailbox and disable IMAP
 $imapmbx = Get-CasMailbox -Filter {IMAPEnabled -eq $True -and Name -notlike "DiscoverySearchMailbox*"} 
-Write-Output "Found $imapmbx.count mailboxes with IMAP enabled"
+Write-Output "Found $(imapmbx.count) mailboxes with IMAP enabled"
 foreach($mbx in $imapmbx)
 {
     try{
